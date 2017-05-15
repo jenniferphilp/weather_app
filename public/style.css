@@ -1,0 +1,49 @@
+
+.weather-icon{
+    width:80%;
+    margin:10%;
+    border-radius:50%;
+
+}
+.header{
+    height:100px;
+}
+
+.graph-container{
+     height:200px;
+     position:relative;
+     margin-bottom:2%;
+
+}
+
+.resultBox .shaded{
+    background-color:#eeeeee;
+    border-right:1px solid lightgrey;
+}
+
+.resultBox{
+    display:inline-block;
+    width:13%;
+    vertical-align:top;
+    margin-right:1%;
+}
+
+.bar {
+    width: 40px;
+    display: inline-block;
+    border: 1px solid grey;
+    position: absolute;
+    bottom: 0px;
+    /*transition doesnt work; need to find another way to do this*/
+    /*height: 1px;
+    transition: height 5s;*/
+    left:0px;
+    font-size:0.65em;
+    text-align:center;
+}
+
+.time{
+    position:absolute;
+    bottom:0px;
+    left:7px;
+}
